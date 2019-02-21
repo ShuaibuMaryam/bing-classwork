@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bing</title>
+    <style>
+        *{
+            padding:0;
+            margin: 0;
+        }
+        body{
+            background-image: url("images/bg2.jpg");
+        }
+        .nav_list{
+            margin-left: 30px;
+            margin-top: 30px;
+        }
+        .nav_list li{
+            display: inline;
+        }
+        .nav_list li a{
+            text-decoration: none;
+            color:white;
+            padding:12px;
+        }
+        .flex-container{
+            margin:100px auto auto 30px;
+            display: flex;
+            height:80px;
+        }
+        #input{
+           width:600px;
+           border-radius:4px;
+           height:50px;
+           margin-left:15px;
+           border-radius: 4px;
+        }
+        #Sign-in{
+            margin-left: 400px;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="nav_list">
+            <li><a href="#">All</a></li>  
+            <li><a href="#">Images</a></li>
+            <li><a href="#">Videos</a></li>
+            <li><a href="#">News</a></li>
+            <li style="color:white;">|</li>
+            <li><a href="#">MSN</a></li>
+            <li><a href="#">Office online</a></li>
+            <li><a href="#">Outlook.com</a></li>
+            <li><a href="#" id="Sign-in">Sign in</a></li>
+        </ul>
+    </nav>
+    <div class="flex-container">
+        <img src="images/cropped-bing.png" width="200px" height="50px">
+        <input type="search" id="input"> 
+    </div>
+</body>
+</html>
